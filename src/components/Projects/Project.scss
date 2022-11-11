@@ -1,0 +1,141 @@
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+
+   h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 90px;
+   }
+
+    .box-container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .box-1{
+            animation: pop-in 1s .5s cubic-bezier(0,.72,.24,.99) forwards;
+            opacity: 0;
+            animation-delay: 1s;
+        }
+        
+        @keyframes pop-in{
+            0%{
+                opacity: 0;
+                transform: translateY(-4rem) scale(.8);
+            }
+            100%{
+                opacity: 1;
+                transform: none;
+            }
+        }
+        .box-2{
+            animation: pop-in 1s .5s cubic-bezier(0,.72,.24,.99) forwards;
+            opacity: 0;
+            animation-delay: 1.6s;
+        }
+        
+        @keyframes pop-in{
+            0%{
+                opacity: 0;
+                transform: translateY(-4rem) scale(.8);
+            }
+            100%{
+                opacity: 1;
+                transform: none;
+            }
+        }
+        .box-3{
+            animation: pop-in 1s .5s cubic-bezier(0,.72,.24,.99) forwards;
+            opacity: 0;
+            animation-delay: 1.9s;
+        }
+        
+        @keyframes pop-in{
+            0%{
+                opacity: 0;
+                transform: translateY(-4rem) scale(.8);
+            }
+            100%{
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+
+
+
+        .box{
+            border-radius: 20px;
+            color: bisque;
+            border: 1px solid burlywood;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            margin: 10px;
+            background-color: rgb(30, 178, 228);
+            max-width: 260px;
+            height: 260px;
+            box-shadow: 10px 10px 5px lightblue;
+            h2{
+                
+                padding: 2px;
+                text-align: center;
+                font-size: 17px;
+            }
+
+            .innerText{
+                padding: 5px;
+                text-align: center;
+                font-size: 13px;
+
+                a{
+                    text-decoration: none;
+                    color: yellow;
+                }
+            }
+           
+           
+        }
+
+        
+    }
+}
+
+@media screen and (max-width: 1200px) {
+   .project-container{
+       .box-container{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+          flex-wrap: wrap;
+  
+    }
+    }
+      
+  }
+
+  @media screen and (max-width:768px){
+    .project-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       flex-wrap: wrap;
+       flex-direction: column;
+       margin-top: 0;
+       position: relative;
+       margin-bottom: 50px;
+
+       h1{
+        color: white;
+        font-size: 40px;
+        margin-top: 10px;
+       }
+    }
+  }
