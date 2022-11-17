@@ -14,7 +14,7 @@ function Project() {
                              <div className='text-1 innerText'>
                                 <p>I build a user friendly English test app,
                                  That allows a user to take a test and gives result instantly.
-                                 <a href=''> click here to see the project.</a>
+                                 <a href='https://github.com/Mus-k'> click here to see the project.</a>
                                 </p>
                              </div>
                         </div>
@@ -22,7 +22,7 @@ function Project() {
                               <h2>Fetching data with javascript</h2>
                               <div className='text-1 innerText'>
                                 <p> Fetching data online was one of my favorite project. it turned out great.
-                                 <a href=''> click here to see the project.</a>
+                                 <a href='https://github.com/Mus-k'> click here to see the project.</a>
                                 </p>
                              </div>
                         </div>
@@ -32,7 +32,7 @@ function Project() {
                              <div className='text-1 innerText'>
                                 <p>building a responsive app with react.js, 
                                 and a well design mobile responsive app was a great experience.
-                                 <a href=''> click here to see the project. </a>
+                                 <a href='https://github.com/Mus-k'> click here to see the project. </a>
                                 </p>
                              </div>
                         </div>

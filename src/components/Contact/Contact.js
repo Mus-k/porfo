@@ -31,7 +31,7 @@ function Contact() {
       });
 
     }
-    
+    const tel='+905426769301';
   
     return (
 
@@ -43,8 +43,8 @@ function Contact() {
         strArray={['C','o','n','t','a','c','t',' ', 'm','e']} idx={15}/>
        </h1>
        <p style={{fontSize:'20px'}}>
-            I am interested in working for long terms contract - especially on ambitious. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            I am interested in working for long terms contract. However, if you have any other requests or
+            questions, you can contact me using below form or <span style={{color:'yellow'}}>{tel}</span>.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>

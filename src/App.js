@@ -13,7 +13,7 @@ function App() {
     <div>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>usa Kamara</title>
+                <title>Musa Kamara</title>
                 <link rel="canonical" href="Musakamara.com" />
             </Helmet>
       <Routes>
